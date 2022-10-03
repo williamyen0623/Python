@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/home')
 @app.route('/data/appInfo/FlaskSE', methods=['GET'])
 @app.route('/data/appInfo/id/5', methods = ['GET'])
 
